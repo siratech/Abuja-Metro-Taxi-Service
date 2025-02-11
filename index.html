@@ -1,0 +1,35 @@
+<script type="module" src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.esm.js"></script>
+<script nomodule src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@ionic/core/css/ionic.bundle.css"/>
+<!-- Default Item -->
+<ion-card>
+  <ion-card-header>
+        <div class="ion-text-center">
+    <ion-card-title>Abuja Metro Taxi Service
+	    <ion-card-subtitle>Login</ion-card-subtitle>
+	</div>
+
+</ion-card-title>
+  </ion-card-header>
+
+  <ion-card-content>
+  		<form method="POST" action="login.php">
+
+    <ion-item>
+    <ion-icon name="mail" slot="start"></ion-icon>
+  <ion-label position="fixed">Email: </ion-label>
+  <ion-input type="email" name="username"></ion-input>
+  </ion-item>
+      <ion-item>
+    <ion-icon name="call" slot="start"></ion-icon>
+  <ion-label position="fixed">Password: </ion-label>
+  <ion-input type="password" name="password"></ion-input>
+  </ion-item>
+  <br>
+  <ion-button expand="block" color="success">Login</ion-button>
+  </form>
+  <ion-button expand="block" color="primary">Register</ion-button>
+
+  </ion-card-content>
+</ion-card>
+

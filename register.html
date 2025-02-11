@@ -1,0 +1,55 @@
+<head>
+<link href="css/ionic.bundle.css" rel="stylesheet">
+</head>
+<!-- Default Item -->
+<ion-card>
+  <ion-card-header>
+        <div class="ion-text-center">
+    <ion-card-title>Abuja Metro Taxi Service
+</ion-card-title>
+	    <ion-card-subtitle>Register</ion-card-subtitle>
+	</div>
+
+  </ion-card-header>
+
+  <ion-card-content>
+                    <form role="form" method="POST" action="regthis.php" enctype="multipart/form-data">
+  <ion-item>
+    <ion-icon name="people" slot="start"></ion-icon>
+  <ion-label position="fixed">First Name: </ion-label>
+  <ion-input type="text" name="fname" required ></ion-input>
+  </ion-item>
+  
+    <ion-item>
+    <ion-icon name="people" slot="start"></ion-icon>
+  <ion-label position="fixed">Last Name: </ion-label>
+  <ion-input type="text" name="lname" required></ion-input>
+  </ion-item>
+  
+  
+    <ion-item>
+    <ion-icon name="call" slot="start"></ion-icon>
+  <ion-label position="fixed">Phone No: </ion-label>
+  <ion-input type="text" name="phono" required></ion-input>
+  </ion-item>
+
+  
+    <ion-item>
+    <ion-icon name="mail" slot="start"></ion-icon>
+  <ion-label position="fixed">Email: </ion-label>
+  <ion-input type="email" name="email" required></ion-input>
+  </ion-item>
+  
+      <ion-item>
+    <ion-icon name="mail" slot="start"></ion-icon>
+  <ion-label position="fixed">password: </ion-label>
+  <ion-input type="password" name="password" required></ion-input>
+  </ion-item>
+  <br>
+  <ion-button expand="block" color="success">Register</ion-button>
+ </form>
+  </ion-card-content>
+</ion-card>
+    <script src="js/ionic.esm.js"></script>
+    <script src="js/ionic.js"></script>
+
